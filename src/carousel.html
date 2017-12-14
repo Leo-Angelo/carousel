@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="..\untitled1\slick\slick.css"/>
+    <link rel="stylesheet" type="text/css" href="..\untitled1\slick\slick-theme.css"/>
+</head>
+<body style ="height : 250px; background-color: black; padding: 35px 150px ;" >
+
+<div class="your-class">
+    <div> <img src ="DD.jpg "></div>
+    <div><img src ="DP.jpg "></div>
+    <div><img src ="IR.jpg "></div>
+    <div><img src ="PUNISHER.jpg"></div>
+    <div><img src ="BATS.jpg "></div>
+    <div><img src ="BLCAT.jpg "></div>
+    <div><img src ="CANARY.jpg "></div>
+    <div><img src ="FLASH.jpg "></div>
+    <div><img src ="GL.jpg "></div>
+    <div><img src ="OLD.jpg "></div>
+    <div><img src ="WDWM.jpg "></div>
+    <div><img src ="Spider-Man.jpg "></div>
+</div>
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.your-class').slick({
+            lazyLoad: 'ondemand',
+            slidesToScroll: 1,
+            slidesToShow: 3,
+        });
+    });
+
+</script>
+
+</body>
+</html>
